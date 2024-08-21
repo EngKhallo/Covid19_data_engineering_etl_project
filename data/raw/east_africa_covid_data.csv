@@ -1,0 +1,13 @@
+updated,country,cases,todayCases,deaths,todayDeaths,recovered,todayRecovered,active,critical,casesPerOneMillion,deathsPerOneMillion,tests,testsPerOneMillion,population,continent,oneCasePerPeople,oneDeathPerPeople,oneTestPerPeople,activePerOneMillion,recoveredPerOneMillion,criticalPerOneMillion,countryInfo._id,countryInfo.iso2,countryInfo.iso3,countryInfo.lat,countryInfo.long,countryInfo.flag
+1724223128472,Burundi,54721,0,38,0,53569,0,1114,0,4334,3,345742,27386,12624840,Africa,231,332233,37,88.24,4243.14,0.0,108,BI,BDI,-3.5,30.0,https://disease.sh/assets/img/flags/bi.png
+1724223128532,Comoros,9109,0,161,0,8939,0,9,0,10038,177,0,0,907419,Africa,100,5636,0,9.92,9851.02,0.0,174,KM,COM,-12.1667,44.25,https://disease.sh/assets/img/flags/km.png
+1724223128519,Djibouti,15690,0,189,0,15427,0,74,0,15441,186,305941,301094,1016097,Africa,65,5376,3,72.83,15182.61,0.0,262,DJ,DJI,11.5,43.0,https://disease.sh/assets/img/flags/dj.png
+1724223128412,Ethiopia,501157,0,7574,0,488171,0,5412,0,4148,63,5565340,46066,120812698,Africa,241,15951,22,44.8,4040.73,0.0,231,ET,ETH,8.0,38.0,https://disease.sh/assets/img/flags/et.png
+1724223128528,Eritrea,10189,0,103,0,10086,0,0,0,2782,28,23693,6470,3662244,Africa,359,35556,155,0.0,2754.05,0.0,232,ER,ERI,15.0,39.0,https://disease.sh/assets/img/flags/er.png
+1724223128420,Kenya,344130,0,5689,0,337309,0,1132,0,6122,101,3967062,70569,56215221,Africa,163,9881,14,20.14,6000.31,0.0,404,KE,KEN,1.0,38.0,https://disease.sh/assets/img/flags/ke.png
+1724223128447,Rwanda,133518,0,1468,0,132039,0,11,0,9817,108,6021981,442778,13600464,Africa,102,9265,2,0.81,9708.42,0.0,646,RW,RWA,-2.0,30.0,https://disease.sh/assets/img/flags/rw.png
+1724223128473,Seychelles,51220,0,172,0,51048,0,0,0,515157,1730,0,0,99426,Africa,2,578,0,0.0,513427.07,0.0,690,SC,SYC,-4.5833,55.6667,https://disease.sh/assets/img/flags/sc.png
+1724223128498,Somalia,27334,0,1361,0,13182,0,12791,0,1623,81,400466,23778,16841795,Africa,616,12375,42,759.48,782.7,0.0,706,SO,SOM,10.0,49.0,https://disease.sh/assets/img/flags/so.png
+1724223128509,South Sudan,18819,0,147,0,18115,0,557,1,1620,13,410280,35313,11618511,Africa,617,79037,28,47.94,1559.15,0.09,728,SS,SSD,6.8769,31.3069,https://disease.sh/assets/img/flags/ss.png
+1724223128468,Sudan,63993,0,5046,0,58947,0,0,0,1391,110,562941,12240,45992020,Africa,719,9115,82,0.0,1281.68,0.0,729,SD,SDN,15.0,30.0,https://disease.sh/assets/img/flags/sd.png
+1724223128479,Tanzania,43223,0,846,0,0,0,42377,0,683,13,0,0,63298550,Africa,1464,74821,0,669.48,0.0,0.0,834,TZ,TZA,-6.0,35.0,https://disease.sh/assets/img/flags/tz.png
