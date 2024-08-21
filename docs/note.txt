@@ -1,0 +1,11 @@
+- The project is about East african Covid-19 data from public api
+- we are doing data engineering project in General:
+    1. rest api public data 
+    2. extract data and dump it to csv file
+    3. then transform and some EDA on it
+    4. Load it to a data warehouse: maybe snowflake or bigQuery
+    5. do some aggregation on SQL 
+    6. Airflow pipeline to automate data ingestion.
+    7. Lastly, connect it to visualization app maybe Tableau.
+
+
