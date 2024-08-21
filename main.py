@@ -10,3 +10,5 @@ data = response.json()
 # Convert JSON to DataFrame
 df = pd.json_normalize(data)
 
+# save to csv format
+df.to_csv('east_africa_covid_data.csv', index=False)
