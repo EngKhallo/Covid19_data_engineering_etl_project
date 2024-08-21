@@ -6,4 +6,7 @@ url = "https://disease.sh/v3/covid-19/countries/Burundi%2C%20Comoros%2C%20Djibou
 
 response = requests.get(url)
 data = response.json()
-print(data)
+
+# Convert JSON to DataFrame
+df = pd.json_normalize(data)
+
