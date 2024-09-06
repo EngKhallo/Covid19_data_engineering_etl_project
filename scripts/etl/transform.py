@@ -30,6 +30,12 @@ if 'recovered' in df_cleaned.columns:
     df_cleaned['recovered_rate'] = (df_cleaned['recovered'] / df_cleaned['cases']) * 100
     print('recovered_rate: ', df_cleaned['recovered_rate'])
 
+# Rename columns for clarity 
+df_cleaned.rename(columns={
+    'cases': 'total_cases',
+    'deaths': 'total_deaths', 
+    'population': 'total_population'
+}, inplace=True)
 
 
 
