@@ -22,8 +22,15 @@ df_cleaned['updated'] = pd.to_datetime(df_cleaned['updated'], unit='ms')
 print('updated column: ', df_cleaned['updated'])
 
 # Add new column: Case Fatility Rate (CFR) = (Deaths / Cases) * 100
-df_cleaned['Case Fatility Rate'] = (df_cleaned['deaths'] / df_cleaned['cases']) * 100
-print('Case Fatility Rate: ', df_cleaned['Case Fatility Rate'])
+df_cleaned['case_fatility_rate'] = (df_cleaned['deaths'] / df_cleaned['cases']) * 100
+print('case_fatility_rate: ', df_cleaned['case_fatility_rate'])
+
+# Add new column: Recovered Rate but check if it exists first
+if 'recovered' in df_cleaned.columns:
+    df_cleaned['recovered_rate'] = (df_cleaned['recovered'] / df_cleaned['cases']) * 100
+    print('recovered_rate: ', df_cleaned['recovered_rate'])
+
+
 
 
 
