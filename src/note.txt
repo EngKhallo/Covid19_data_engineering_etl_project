@@ -8,4 +8,11 @@
     6. Airflow pipeline to automate data ingestion.
     7. Lastly, connect it to visualization app maybe Tableau.
 
+Data Transformation:
+    - Handle missing values and duplicates.
+    - Handling data types. 
+    - Enrichment: Adding new metrics or columns/calculated columns.
+    - Renaming columns for clarity.
+    - 
+
 
