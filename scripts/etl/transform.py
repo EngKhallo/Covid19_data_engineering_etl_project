@@ -15,4 +15,10 @@ print(df.duplicated().sum())
 # output: every thing is 0
 
 
+# ------ Data Transformation & Enrichment ------ #
+
+# convert 'updated' column into actual date-time format
+df_cleaned['updated'] = pd.to_datetime(df_cleaned['updated'], unit='ms')
+print('updated column: ', df_cleaned['updated'])
+
 
