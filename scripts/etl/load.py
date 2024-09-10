@@ -42,4 +42,6 @@ for index, row in df.iterrows():
 # Commit changes to the 'metrics' table
 conn.commit()
 
-
+# Close the cursor and connection
+cursor.close()
+conn.close()
