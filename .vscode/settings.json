@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "covid19_data_pipeline",
+            "group": "covid19_data_pipeline",
+            "database": "covid19_data_pipeline",
+            "username": "postgres"
+        }
+    ]
+}
