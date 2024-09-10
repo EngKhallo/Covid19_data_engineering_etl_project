@@ -8,11 +8,27 @@
     6. Airflow pipeline to automate data ingestion.
     7. Lastly, connect it to visualization app maybe Tableau.
 
-Data Transformation:
+1. Data Extractions
+
+2. Data Transformation:
     - Handle missing values and duplicates.
     - Handling data types. 
     - Enrichment: Adding new metrics or columns/calculated columns.
     - Renaming columns for clarity.
-    - 
+    - check dates and everything else.
+
+3. Data Loading:
+    - Either I have two choices: 
+        1. Load it to the cloud: Snowflake data warehouse or AWS Redshift.
+        2. Load it to local database of PgSQL.
+    - At first, I'll take the second option of loading the data to the local database
+
+4. Analyze: build visualization using tableau
+
+5. Automate: setup airflow to schedule etl process.
+
+6. Document
+
+
 
 
