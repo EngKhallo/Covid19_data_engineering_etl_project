@@ -13,7 +13,7 @@ def etl_job():
     load_data()
 
 # Schedule the job to run daily
-schedule.every().day.at("16:49").do(etl_job)
+schedule.every().day.at("17:04").do(etl_job)
 
 while True:
     schedule.run_pending()
