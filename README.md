@@ -3,6 +3,7 @@
 This project is a complete end-to-end data engineering pipeline that extracts, transforms, and loads (ETL) COVID-19 data for East African countries. The pipeline is built using Python, PostgreSQL, and Apache Airflow for automation. It includes data cleaning, transformation, and analytics-ready storage, with capabilities for scheduling and automation.
 
 <h2>Features</h2>
+
 - Data Extraction: Pulls live COVID-19 data for 12 East African countries from the disease.sh API.
 
 - Data Transformation: Cleans and transforms raw data by:
