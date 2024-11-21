@@ -1,13 +1,24 @@
 import pandas as pd
 import psycopg2 as psy
+from dotenv import load_dotenv
+import os
 
 def load_data():
     # Import pre-processed raw dataset
     df = pd.read_csv('data/processed/east_africa_covid_data_transformed.csv')
 
+    # Load environment variables from .env file
+    load_dotenv()
+
+    # Get database credentials
+    host = os.getenv("DB_HOST")
+    database = os.getenv("DB_NAME")
+    user = os.getenv("DB_USER")
+    password = os.getenv("DB_PASSWORD")
+
     # Connect to PostgreSQL
     conn = psy.connect(
-        host='localhost', database='covid19_data_pipeline', user='postgres', password='Developer'
+        host=host, database=database, user=user, password=password
     )
 
     cursor = conn.cursor()
